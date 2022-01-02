@@ -1,0 +1,27 @@
+canvas{
+    height:200px;
+    border:1px solid gray;
+    padding:5pt;
+    margin:20pt;
+  }
+  h1{
+    text-align: center;
+     color: SlateBlue;
+     border: 1px solid;
+     box-sizing: border-box;
+     border-radius: 2px;
+     box-shadow: 4px 2px 2px #e0ebeb;
+     background-color: #FFFFFF;
+     line-height: 1.5;
+  }
+  body{
+    background-color:#FFFFFF;
+    font-family:Verdana;
+    margin:60pt;
+    padding:10pt;
+  }
+  input1,input2{
+    font-size:12pt;
+    padding:10px;
+    background-color:#D8BFD8;
+  }

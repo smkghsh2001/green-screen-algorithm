@@ -1,0 +1,26 @@
+<html>
+<head>
+    <link rel="stylesheet" href="./styles.css" type="text/css">
+    <script src="./SimpleImage.js"></script>
+    <h1>Green Screen Algorithm</h1>
+</head>
+<body>
+<canvas id="fgcan">
+</canvas>
+<canvas id="bgcan">
+</canvas>
+<p>
+Foreground:
+  <input type="file" id="fginput" multiple="false" accept="image/*" onchange="loadfgImage()"/>
+</p>
+<p>
+Background:
+  <input type="file" id="bginput" multiple="false" accept="image/*" onchange="loadbgImage()"/>
+</p>
+<p>
+  <input type="button" id="input1" value="Create Composite" onclick="doGreenScreen()"/>
+  <input type="button" id="input2" value="Clear Canvases" onclick="clearCanvas()"/>
+</p>
+</body>
+<script src="./script.js"></script>
+</html>
